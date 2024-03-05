@@ -11,5 +11,9 @@ pub(crate) fn list_topo_files(topodir: &str) -> Vec<String> {
             files.push(path_str);
         }
     }
-    files
+    return files
 }
+
+// pub(crate) fn topo_to_adj(topofile: &str) -> (Vec<Vec<isize>>, Vec<String>) {
+// TBD
+// }
